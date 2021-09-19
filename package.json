@@ -1,0 +1,27 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "An app for storing, altering, and calling on employee data using express and mysql",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sydneyw-cyber/12-EmployeeTracker.git"
+  },
+  "keywords": [],
+  "author": "Sydney Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sydneyw-cyber/12-EmployeeTracker/issues"
+  },
+  "homepage": "https://github.com/sydneyw-cyber/12-EmployeTracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^10.0.0",
+    "inquirer": "^8.1.1",
+    "mysql2": "^2.2.5"
+  }
+}
